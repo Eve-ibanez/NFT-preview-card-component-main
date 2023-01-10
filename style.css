@@ -2,17 +2,12 @@ body {
 	font-family: 'Outfit', sans-serif;
 	font-size: 16px;
 	background-color:  hsl(217, 54%, 11%);
-	padding-top: 25%;
-
 }
 
 
 .container {
 	position: relative;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
+	top: 30vw;
 	margin: auto;
 	width: 329px;
 	height: 544px;
@@ -97,7 +92,6 @@ p {
 }
 
 .icon-clock {
-	
 	position: absolute;
 	left: 170px;
 
@@ -132,10 +126,14 @@ p {
 	color: white;
 }
 
+.div-attribution {
+	position: relative;
+}
 
 .attribution {
 	font-size: 11px;
-	padding: 40px;
+	position: relative;
+	top: 35vw;
 	text-align: center;
 
 }
@@ -164,4 +162,17 @@ h1:hover {
 	cursor: pointer;
 }
 
+@media screen and (min-width: 380px) {
+	body {
+		padding: 0;
+	}
+
+	.container {
+		top: 15vw;
+	}
+	.attribution {
+		top: 16vw;
+	}
+
+} 
 
