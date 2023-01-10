@@ -1,0 +1,173 @@
+body {
+	font-family: 'Outfit', sans-serif;
+	font-size: 16px;
+	background-color:  hsl(217, 54%, 11%);
+	padding-top: 25%;
+	
+
+
+
+}
+
+
+.container {
+	position: relative;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	width: 329px;
+	height: 544px;
+	box-sizing: border-box;
+	background-color: hsl(216, 50%, 16%);
+	border-radius: 5%;
+	padding: 25px;
+
+}
+
+
+
+.div-image {
+	width: 279px;
+	height: 275px;
+	overflow: hidden;
+	position: relative;
+	
+}
+
+.equilibrium-image {
+	width: 100%;
+	height: 100%;
+	border-radius: 4%;
+	
+}
+
+
+.div-icon-view {
+	position: absolute;
+	background-color: hsl(178, 100%, 50%);
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .5;
+	border-radius: 4%;
+	opacity: 0;
+
+} 
+
+
+.icon-view {
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	
+}
+
+
+
+h1 {
+	color: hsl(0, 0%, 100%);
+	font-size: 21px;
+	padding-top: 7px;
+}
+
+p {
+	color: hsl(215, 51%, 70%);
+	font-weight: 100;
+	line-height: 1.5;
+
+}
+
+.container-price-time {
+	display: flex;
+	border-bottom: 1px solid hsl(215, 32%, 27%);
+	padding-bottom: 15px;
+	padding-top: 5px;
+	position: relative;
+	
+	
+}
+
+.icon-ethereum {
+	padding-right: 5px;
+}
+
+.price {
+	color: hsl(178, 100%, 50%);
+	text-transform: uppercase;
+	
+}
+
+.icon-clock {
+	
+	position: absolute;
+	left: 170px;
+
+}
+
+.time {
+	color: hsl(215, 51%, 70%);
+	position: absolute;
+	left: 200px
+}
+
+.div-creator {
+	display: flex;
+	padding: 15px 0;
+	align-items: center;
+	color: hsl(215, 51%, 70%);
+	font-size: 16px;
+
+}
+
+
+.avatar-creator {
+	width: 30px;
+	border: 1px solid hsl(0, 0%, 100%);
+	border-radius: 50%;
+	margin-right: 20px;
+	margin-top: 3px;
+
+}
+
+.creator-name {
+	color: white;
+}
+
+
+.attribution {
+	font-size: 11px;
+	padding: 40px;
+	text-align: center;
+
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+
+.equilibrium-image:hover {
+	filter: 
+}
+
+h1:hover {
+	color: hsl(178, 100%, 50%);
+	cursor: pointer;
+}
+
+.creator-name:hover {
+	color: hsl(178, 100%, 50%);
+	cursor: pointer;
+}
+
+.div-icon-view:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+
+@media screen and (min-width: 1440px) {
+	
+}
